@@ -3,6 +3,9 @@
 # ide
 .idea
 
+#ide
+/.idea
+
 # dependencies
 /node_modules
 /.pnp
