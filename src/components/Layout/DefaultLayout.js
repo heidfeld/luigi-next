@@ -22,7 +22,7 @@ const DefaultLayout = ({children}) => {
             </main>
 
             <footer>
-                Copyright Luigi
+                <small>Copyright © 2020</small>
             </footer>
         </div>
     );

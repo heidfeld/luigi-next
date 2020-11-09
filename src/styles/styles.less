@@ -1,5 +1,5 @@
 @bgColorPrimary: #1c1c1c;
-@bgColorSecondary: #1c1d1f;
+@bgColorSecondary: #223248;
 @headerHeight: 100px;
 @logoMargin: 16px;
 @logoSize: 120px;
@@ -14,9 +14,8 @@ body {
   text-align: center;
   height: 100%;
   color: white;
-  background: linear-gradient(@bgColorPrimary 20%, @bgColorSecondary 80%);
-  background-repeat: no-repeat;
   background: @bgColorSecondary;
+  background: linear-gradient(@bgColorPrimary 10%, @bgColorSecondary 90%) no-repeat;
 }
 
 main {
@@ -37,6 +36,9 @@ header {
 }
 
 footer {
+  position: absolute;
+  left: 0.5em;
+  bottom: 0.5em;
   height: 2em;
   line-height: 2em;
 }
