@@ -1,10 +1,10 @@
 import { connectToDatabase } from '../util/mongodb';
 
-import styles from '../styles/modules/test.module.less';
+import '../styles/less/pages/test.less';
 
 export default function Home({ isConnected }) {
     return (
-        <div className={styles.test123}>
+        <div className="test">
             Some Test Page
         </div>
     )
