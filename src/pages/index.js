@@ -1,5 +1,6 @@
 import React from 'react';
 import { connectToDatabase } from '../util/mongodb';
+import Dashboard from "../components/Dashboard/Dashboard";
 
 export default function Home({ isConnected }) {
   return (
@@ -11,6 +12,7 @@ export default function Home({ isConnected }) {
               You are NOT connected to MongoDB.
             </h2>
         )}
+        <Dashboard/>
       </div>
   )
 }
