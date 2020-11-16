@@ -14,6 +14,11 @@ const Navigation = (props) => {
                     </Link>
                 </li>
                 <li className="navigation__container__tab">
+                    <Link href="/game">
+                        <a>Game</a>
+                    </Link>
+                </li>
+                <li className="navigation__container__tab">
                     <Link href="/about">
                         <a>About</a>
                     </Link>
